@@ -55,6 +55,7 @@ git push dev-1.1.1
 git checkout master
 git merge fat-1.1.1
 git push master
+git tag online
 
 
 -- 若存在很多未推送的本地标签，想一次全部推送：
@@ -72,6 +73,9 @@ git tag -d fat
 
 -- 删除远程tag
 git push origin :refs/tags/fat
+
+-- 查看本地tag列表
+git tag
 
 --  强制提交   push 时增加 -f参数，强制提交，不建议用
 
