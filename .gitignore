@@ -22,4 +22,5 @@ Homestead.json
 /.vagrant
 .phpunit.result.cache
 
+# IDE自动生成的文件/目录
 .idea/
