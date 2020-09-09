@@ -63,11 +63,16 @@ git push origin --tags
 
 ## add、merge前都要pull一下
 
+
+-- 拉取远程tag到本地
+git fetch origin tag fat
+
 -- git 删除本地tag
 git tag -d fat
 
 -- 删除远程tag
 git push origin :refs/tags/fat
+
 
 
 ```
