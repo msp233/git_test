@@ -73,6 +73,7 @@ git tag -d fat
 -- 删除远程tag
 git push origin :refs/tags/fat
 
+--  强制提交   push 时增加 -f参数，强制提交，不建议用
 
 
 ```
